@@ -33,7 +33,7 @@ const App = () => {
                 <img src={example1} className={'exampleImg'} alt={"Example of osh command in action"}/>
             </div>
           <div className="cta">
-            <button className="download-btn">Download OSH</button>
+           <a href="https://xy7d4h2bkf5.typeform.com/to/YoYmgVoQ" ><button className="download-btn">Join the waitlist!</button></a>
           </div>
         </section>
         <footer className="App-footer">
