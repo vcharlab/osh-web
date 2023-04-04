@@ -7,7 +7,7 @@ const App = () => {
       <div className="App">
         <header className="App-header">
 
-          <h1>  <img src={logo} height={64} width={64}/> Welcome to OSH!</h1>
+          <h1>  <img src={logo} alt={"osh logo"} height={64} width={64}/> Welcome to OSH!</h1>
           <h2>Introducing OSH - Your commandline copilot for an emergency</h2>
         </header>
         <section className="App-content">
@@ -30,7 +30,7 @@ const App = () => {
             <li>Start using OSH to improve your command-line experience!</li>
           </ol>
             <div>
-                <img src={example1} className={'exampleImg'}/>
+                <img src={example1} className={'exampleImg'} alt={"Example of osh command in action"}/>
             </div>
           <div className="cta">
             <button className="download-btn">Download OSH</button>
